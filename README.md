@@ -72,9 +72,9 @@ def Main():
     print("Started") 
       
     print(output) 
-  
-if __name__=="__main__": 
-    Main() 
+
+    if __name__=="__main__": 
+        Main() 
 
 ## Iteration (Looping)
 As the name suggests it calls repeating things again and again. We will use the most popular ‘for’ loop here.
@@ -97,5 +97,6 @@ def Main():
     print(num) 
       
       
-if __name__=="__main__": 
-    Main() 
+    
+    if __name__=="__main__": 
+        Main() 
