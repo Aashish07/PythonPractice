@@ -38,28 +38,37 @@ name = input("Enter your name: ")
 
 num1 = 34
 
-if(num1>12): 
-    print("Num1 is good") 
-elif(num1>35): 
-    print("Num2 is not gooooo....") 
-else: 
-    print("Num2 is great") 
+    if(num1>12): 
+
+        print("Num1 is good") 
+
+    elif(num1>35): 
+
+        print("Num2 is not gooooo....") 
+
+    else: 
+
+        print("Num2 is great") 
 
 ## Functions
 
 #### You can think of functions like a bunch of code that is intended to do a particular task in the whole Python script. Python used the keyword ‘def’ to define a function.
 
 def hello(): 
+
     print("hello") 
     print("hello again") 
+
 hello() 
 
 #### Now as we know any program starts from a ‘main’ function…lets create a main function like in many other programming languages.
 def getInteger(): 
+
     result = int(input("Enter integer: ")) 
     return result 
   
 def Main(): 
+
     print("Started") 
       
     print(output) 
@@ -69,7 +78,8 @@ if __name__=="__main__":
 
 ## Iteration (Looping)
 As the name suggests it calls repeating things again and again. We will use the most popular ‘for’ loop here.
-for step in range(5):     
+for step in range(5):
+
     print(step) 
 
 ## Modules
