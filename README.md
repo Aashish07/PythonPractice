@@ -19,14 +19,14 @@ Python program to illustrate a list :-
   
 1. creates a empty list :-
 
-nums = []  
+        nums = []  
   
 2. appending data in list :-
 
-    nums.append(21) 
-    nums.append(40.5) 
-    nums.append("String") 
-    print(nums) 
+        nums.append(21)
+        nums.append(40.5)
+        nums.append("String")
+        print(nums) 
 
 ## Input and Output
 
